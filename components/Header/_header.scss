@@ -17,10 +17,11 @@ header{
       text-decoration: none;
       padding-right: 1em;
       color: $print;
+      text-shadow: rgb(255, 247, 247) 0px 2px 6px;
       font-size: 1.5em;
       &:hover{
-        color:rgba(255, 255, 255, 0.35);
-        }
+        color: #8000ff;
+      }
     }
   }
 }

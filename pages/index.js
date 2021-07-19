@@ -22,8 +22,8 @@ const home = () => {
       <InfoCards />
       <Gallery />
       <Classic />
-      <Contact />
       <Why />
+      <Contact />
     </MainLayout>
     
   )

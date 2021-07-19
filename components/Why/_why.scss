@@ -1,0 +1,102 @@
+$blue: #84c0fc;
+$print: #1d2a3b;
+
+.why{
+  background: $blue;
+  color: $print;
+  height: 100%;
+  width: 100vw;
+  h2{
+    font-size: 72px;
+    font-weight: bold;
+    text-align: center;
+    padding: 2em;
+    text-transform: capitalize;
+    border-image-source: linear-gradient(
+      34deg
+      ,#fff,#8000ff 61%);
+    background: linear-gradient(
+    34deg
+    ,#fff,#8000ff 61%);
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 4px transparent;
+    color: #010117;
+    stroke-width: 2px;
+  }
+  &__why-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    img{
+      object-fit: cover;
+      object-position: center;
+      height: 75%;
+      width: 60%;
+      margin: 0 auto;
+      border: 8px outset;
+      border-color: linear-gradient(34deg,#fff,#8000ff 61%);
+    }
+    .why-container-right{
+      display: flex;
+      flex-direction: column;
+      // align-items: center;
+      margin: 0 auto;
+      h3{
+        font-size: 2.5em;
+        border-image-source: linear-gradient(
+          34deg
+          ,#fff,#8000ff 61%);
+        background: linear-gradient(
+        34deg
+        ,#fff,#8000ff 61%);
+        -webkit-background-clip: text;
+        -webkit-text-stroke: 4px transparent;
+        color: #010117;
+        stroke-width: 2px;
+      }
+      ul{
+        padding-left: 30px;
+        padding-top: 10px;
+        color: #fff;
+        li{
+          list-style-type: disc;
+          padding-top: 10px;
+          color: $print;
+        }
+      }
+    }
+    .why-driver{
+      margin: 0 auto;
+      padding: 3em;
+      h3{
+        font-size: 65px;
+        text-align: center;
+      }
+      p{
+        line-height: 1.5;
+        color: $print;
+      }
+    }
+    .why-mega-icon-rep{
+      margin: 0 auto;
+      padding: 3em;
+      h3{
+     
+      }
+      .icon-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        a{
+          padding-top: 10px;
+  
+          .icons{
+            text-align: center;
+            font-size: 4em;
+            color: $print;
+          }
+        }
+      }
+
+    }
+  }
+}
