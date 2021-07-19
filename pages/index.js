@@ -7,6 +7,8 @@ import Head from '../components/head'
 import Gallery from '../components/Gallery/Gallery'
 import Classic from '../components/Classic/Classic'
 import Contact from '../components/Contact/Contact'
+import Why from '../components/Why/Why'
+
 
 
 
@@ -21,6 +23,7 @@ const home = () => {
       <Gallery />
       <Classic />
       <Contact />
+      <Why />
     </MainLayout>
     
   )
