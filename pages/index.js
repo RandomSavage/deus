@@ -5,6 +5,8 @@ import Hero from '../components/Hero/Hero'
 import InfoCards from '../components/InfoCards/InfoCards'
 import Head from '../components/head'
 import Gallery from '../components/Gallery/Gallery'
+import Classic from '../components/Classic/Classic'
+import Contact from '../components/Contact/Contact'
 
 
 
@@ -17,6 +19,8 @@ const home = () => {
       <Hero />
       <InfoCards />
       <Gallery />
+      <Classic />
+      <Contact />
     </MainLayout>
     
   )

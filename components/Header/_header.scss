@@ -6,11 +6,13 @@ header{
   flex-direction: row;
   justify-content: flex-end;
   padding: 2em;
+  padding-bottom: 3em;
   height: 5em;
   .header-right{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding-right: 12px;
     a{
       text-decoration: none;
       padding-right: 1em;
