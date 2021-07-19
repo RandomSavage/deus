@@ -1,0 +1,27 @@
+@use 'reset';
+@use '../../components/Header/_header.scss';
+@use '../../components/Action/_action.scss';
+@use '../../components/Hero/_hero.scss';
+@use '../../components/InfoCards/_infocards.scss';
+@use '../../components/Gallery/_gallery.scss';
+
+
+
+$blue: #84c0fc;
+$print: #1d2a3b; 
+
+body{
+  font-family: 'Audiowide', cursive;
+  background: $blue;
+}
+
+
+/*tablets*/
+@media only screen and (max-width: 960px){
+
+}
+
+/*phones*/
+@media only screen and (max-width: 767px){
+
+}

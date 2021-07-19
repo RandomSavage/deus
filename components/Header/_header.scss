@@ -1,0 +1,24 @@
+$print: #1d2a3b; 
+
+
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 2em;
+  height: 5em;
+  .header-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    a{
+      text-decoration: none;
+      padding-right: 1em;
+      color: $print;
+      font-size: 1.5em;
+      &:hover{
+        color:rgba(255, 255, 255, 0.35);
+        }
+    }
+  }
+}
